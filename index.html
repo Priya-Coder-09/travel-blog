@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Blog
+  </title>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@100..900&display=swap" rel="stylesheet" />
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<header class="header" id="header">
+  <nav class="nav">
+    <a href="#" class="nav--logo">
+      <img src="img/new logo.png" alt="logo" class="new-black-logo" />
+      <span>GoTravel</span>
+    </a>
+
+    <div class="nav--menu" id="nav-menu">
+      <h2 class="sidebar-title">Navigation</h2>
+      <ul class="nav--list">
+        <li><a href="#home" class="nav--link active-link">Home</a></li>
+        <li><a href="#destination" class="nav--link">Destination</a></li>
+        <li><a href="#testimonial" class="nav--link">Testimonial</a></li>
+        <li><a href="#gallery" class="nav--link">Gallery</a></li>
+        <li><a href="#contact" class="nav--link">Contact</a></li>
+      </ul>
+
+      <div class="nav--close" id="nav-close">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+    </div>
+
+    <div class="nav--buttons">
+      <i class="fa-solid fa-moon nav--theme" id="theme-toggle"></i>
+      <img src="img/2gridicon.png" class="grid-img" />
+      <div class="nav--toggle" id="nav-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<main class="main">
+  <!--home section-->
+  <section class="home-section" id="home">
+    <img src="img/home-bg.png" alt="Background" class="home--bg">
+    <div class="home--blur"></div>
+
+    <div class="home--container">
+      <div class="home--data">
+        <h1 class="home--title">Travel<br>Around<br>The World</h1>
+        <p class="home--description">
+          Explore the best beautiful tourist spots in<br>
+          the countries and see the world on all your amazing adventures.
+        </p>
+        <a href="#destination" class="home--button">
+          Explore The World <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+    <div class="swiper home-swiper">
+  <div class="swiper-wrapper">
+    <article class="swiper-slide">
+      <img src="img/home-img-1.png" alt="Image 1" class="home--img">
+    </article>
+    <article class="swiper-slide">
+      <img src="img/home-img-2.png" alt="Image 2" class="home--img">
+    </article>
+    <article class="swiper-slide">
+      <img src="img/home-img-3.png" alt="Image 3" class="home--img">
+    </article>
+    <article class="swiper-slide">
+      <img src="img/home-img-4.png" alt="Image 4" class="home--img">
+    </article>
+  </div>
+
+  <!-- 🔥 Add these navigation buttons -->
+  <!-- <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div> -->
+
+    </div>
+  </section>
+
+  <!--Destination section-->
+<section class="destination-section" id="destination">
+  <h2 class="section-title">Find Your Best<br>Destination</h2>
+  
+  <div class="destination--container">
+    <article class="destination-card">
+      <img src="img/destination-img-1.png" alt="Bali" class="destination--img">
+      <div class="destination--data">
+        <h3 class="destination--title">Bali</h3>
+        <h2 class="destination-title">ISLAND</h2>
+        <p class="destination--country">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Indonesia</span>
+        </p>
+      </div>
+    </article>
+
+    <article class="destination-card">
+      <img src="img/destination-img-2.png" alt="Banana Beach" class="destination--img">
+      <div class="destination--data">
+        <h3 class="destination--title">Banana</h3>
+        <h2 class="destination-title">Beach</h2>
+        <p class="destination--country">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Tailandia</span>
+        </p>
+      </div>
+    </article>
+
+    <article class="destination-card">
+      <img src="img/destination-img-3.png" alt="Santorini" class="destination--img">
+      <div class="destination--data">
+        <h3 class="destination--title">Santorini</h3>
+        <h2 class="destination-title">ISLAND</h2>
+        <p class="destination--country">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Grecia</span>
+        </p>
+      </div>
+    </article>
+  </div>
+</section>
+
+  <!--testimonial section-->
+<section class="testimonial-section" id="testimonial">
+  <h2 class="section--title">What Are <br>They Saying?</h2>
+
+  <div class="testimonial--container">
+    <!-- Top Image -->
+    <img src="img/testimonial-img.png" alt="testimonial image" class="testimonial--img" />
+
+    <!-- Swiper Carousel Below Image -->
+    <div class="testimonial-swiper swiper">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="testimonial--card swiper-slide">
+          <h2 class="testimonial--title">Ama Dablam</h2>
+          <p class="testimonial--description">
+            I was delighted to visit the country because the<br>
+            scenery is beautiful. The residents also welcomed<br>
+            me happily and with lovely smiles.
+          </p>
+          <div class="testimonial--profile">
+            <img src="img/testimonial-profile-1.png" alt="profile 1">
+            <div class="testimonial--info">
+              <h3>Will</h3>
+              <p>Photographer</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="testimonial--card swiper-slide">
+          <h2 class="testimonial--title">Mount Fuji</h2>
+          <p class="testimonial--description">
+            I was delighted to visit the country because the<br>
+            scenery is beautiful. The residents also welcomed<br>
+            me happily and with lovely smiles.
+          </p>
+          <div class="testimonial--profile">
+            <img src="img/testimonial-profile-2.png" alt="profile 2">
+            <div class="testimonial--info">
+              <h3>Rose</h3>
+              <p>Influencer</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="testimonial--card swiper-slide">
+          <h2 class="testimonial--title">Nanga Parbat</h2>
+          <p class="testimonial--description">
+            I was delighted to visit the country because the<br>
+            scenery is beautiful. The residents also welcomed<br>
+            me happily and with lovely smiles.
+          </p>
+          <div class="testimonial--profile">
+            <img src="img/testimonial-profile-3.png" alt="profile 3">
+            <div class="testimonial--info">
+              <h3>Gian</h3>
+              <p>Blogger</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--gallery section-->
+<section class="gallery-section" id="gallery">
+  <h2 class="section-gallery">Gallery</h2>
+
+  <div class="gallery--container">
+    <article class="gallery--card">
+      <img src="img/gallery-img-1.png" alt="Nusa Indonesia" class="gallery--img" />
+      <div class="gallery--shadow"></div>
+      <div class="gallery--data">
+        <h3 class="gallery-subtitle">Nusa</h3>
+        <h2 class="gallery--title">Indonesia</h2>
+      </div>
+    </article>
+
+    <article class="gallery--card">
+      <img src="img/gallery-img-2.png" alt="Cook Nueva Zelanda" class="gallery--img" />
+      <div class="gallery--shadow"></div>
+      <div class="gallery--data">
+        <h3 class="gallery-subtitle">Cook</h3>
+        <h2 class="gallery--title">Nueva Zelanda</h2>
+      </div>
+    </article>
+
+    <article class="gallery--card">
+      <img src="img/gallery-img-3.png" alt="Bora Bora Polinesia" class="gallery--img" />
+      <div class="gallery--shadow"></div>
+      <div class="gallery--data">
+        <h3 class="gallery-subtitle">Bora Bora</h3>
+        <h2 class="gallery--title">Polinesia</h2>
+      </div>
+    </article>
+
+    <article class="gallery--card">
+      <img src="img/gallery-img-4.png" alt="Santorini Grecia" class="gallery--img" />
+      <div class="gallery--shadow"></div>
+      <div class="gallery--data">
+        <h3 class="gallery-subtitle">Santorini</h3>
+        <h2 class="gallery--title">Grecia</h2>
+      </div>
+    </article>
+  </div>
+</section>
+<!--contact section-->
+
+<section class="contact-section" id="contact">
+  <div class="contact--container">
+    <div class="contact--data">
+      <h2 class="section--title">Your Journey <br>Starts Here</h2>
+      <p class="contact--description">
+        Get up to date with the latest travel<br>
+        and information from us.
+      </p>
+      <form action="" class="contact--form">
+        <input type="email" placeholder="Enter your email" class="contact--input" />
+        <button type="submit" class="contact--button">
+          Join our newsletter <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </form>
+    </div>
+    <img src="img/join-img.png" alt="Join" class="contact--img" />
+  </div>
+</section>
+</main>
+<!-- Footer Section -->
+<footer class="footer">
+  <div class="footer--container">
+    <a href="#" class="footer--logo">
+      <img src="img/logo.svg" alt="GoTravel Logo">
+      <span>GoTravel</span>
+    </a>
+
+    <div class="footer--content">
+      <div>
+        <h3 class="footer--title">About</h3>
+        <ul class="footer--links">
+          <li><a href="#" class="footer--link">About Us</a></li>
+          <li><a href="#" class="footer--link">Features</a></li>
+          <li><a href="#" class="footer--link">New Blogs</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer--title">Contact</h3>
+        <ul class="footer--links">
+          <li><a href="#" class="footer--link">Call Center</a></li>
+          <li><a href="#" class="footer--link">Support</a></li>
+          <li><a href="#" class="footer--link">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer--title">Support</h3>
+        <ul class="footer--links">
+          <li><a href="#" class="footer--link">Terms & Policy</a></li>
+          <li><a href="#" class="footer--link">Privacy Policy</a></li>
+          <li><a href="#" class="footer--link">Payment</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer--title">Social</h3>
+        <div class="footer--social">
+          <a href="https://www.facebook.com/" target="_blank" class="footer--social-link">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" class="footer--social-link">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://twitter.com/" target="_blank" class="footer--social-link">
+            <i class="fa-brands fa-x-twitter"></i>  
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <span class="footer--copy">
+    &#169; All Rights Reserved By Code
+  </span>
+</footer>
+<!--scroll up-->
+<a href="#" class="scrollup" id="scroll-up">
+  <i class="fa-solid fa-arrow-up"></i>
+</a>
+  <script src="script.js"></script>
+  <!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- ScrollReveal CDN -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+</html>
